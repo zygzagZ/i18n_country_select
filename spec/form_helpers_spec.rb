@@ -22,5 +22,10 @@ describe CountryCodeSelect::FormHelpers do
 			output = country_code_select(:user, :country, [ "US", "United States" ], class: "custom_class")
 			output.should match(/select class="custom_class"/)
 		end
+		
+		it "should output a valid select field for fields_for nested attributes" do
+		  # no idea how to write the test for this.
+      # output.should match /select id="user_shipping_address_attributes_country"/
+		end
 	end
 end

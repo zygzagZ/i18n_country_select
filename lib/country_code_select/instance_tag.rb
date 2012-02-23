@@ -20,7 +20,8 @@ module CountryCodeSelect
 			end
 
 			countries = countries + options_for_select(COUNTRIES, selected)
-      content_tag(:select, countries, options.merge(id: "#{@object_name}_#{@method_name}", :name => "#{@object_name}[#{@method_name}]"), false)
+			add_default_name_and_id(options)
+      content_tag(:select, countries, options, false)
 		end
 	end
 end
