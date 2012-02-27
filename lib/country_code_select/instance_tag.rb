@@ -2,12 +2,12 @@ module CountryCodeSelect
 	module InstanceTag
 		include Countries
 
-		def to_country_code_select_tag(priority_countries, options = {})
-			country_code_select(priority_countries, options)
+		def to_country_code_select_tag(priority_countries, options = {}, html_options = {})
+			country_code_select(priority_countries, options, html_options)
 		end
 
 		# Adapted from Rails country_select. Just uses country codes instead of full names.
-		def country_code_select(priority_countries, options)
+		def country_code_select(priority_countries, options, html_options)
 			selected = object.send(@method_name)
 
 			countries = ""
@@ -21,7 +21,7 @@ module CountryCodeSelect
 
 			countries = countries + options_for_select(COUNTRIES, selected)
 			add_default_name_and_id(options)
-      content_tag(:select, countries, options, false)
+      content_tag(:select, countries, options, html_options)
 		end
 	end
 end
