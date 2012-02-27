@@ -21,7 +21,7 @@ module CountryCodeSelect
 
 			countries = countries + options_for_select(COUNTRIES, selected)
 			add_default_name_and_id(options)
-      content_tag(:select, countries, options, html_options)
+      content_tag(:select, countries.html_safe, options, html_options)
 		end
 	end
 end
