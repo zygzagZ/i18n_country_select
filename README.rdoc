@@ -4,9 +4,9 @@ A simple country code select helper. Works exactly the same as country_select bu
 
 == Requirements
 
-Rails 3+
-Ruby 1.9.2+
-https://github.com/onomojo/rails-i18n - Contains the country translations
+* Rails 3+
+* Ruby 1.9.2+
+* https://github.com/onomojo/rails-i18n - Contains the country translations
 
 == Installation
 Put the following in your Gemfile
@@ -26,9 +26,9 @@ Supplying priority countries to be placed at the top of the list:
 
 == Contributors
 
-Brian McQuay from Onomojo
-Brad Carson from Base 3 Media
-Russ Smith
+* Brian McQuay from Onomojo
+* Brad Carson from Base 3 Media
+* Russ Smith
 
 
 
