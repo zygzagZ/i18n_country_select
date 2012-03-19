@@ -9,6 +9,22 @@ A simple country code select helper. Works exactly the same as country_select bu
 Rails 3+
 Ruby 1.9.2+
 
+
+== Installation
+Install as a gem using
+
+  gem install country-select
+
+Or put the following in your Gemfile
+
+  gem 'country-select'
+
+== Contributors
+
+Brian McQuay from Onomojo
+Brad Carson from Base 3 Media
+Russ Smith
+
 == Copyright/License
 
 Copyright (c) 2008 Russ Smith, released under the MIT license.
