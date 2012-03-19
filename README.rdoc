@@ -4,13 +4,9 @@ A simple country code select helper. Works exactly the same as country_select bu
 
 
 == Installation
-Install as a gem using
+Put the following in your Gemfile
 
-  gem install country-select
-
-Or put the following in your Gemfile
-
-  gem 'country-select'
+  gem 'i18n_country_select', :git => 'git://github.com/onomojo/i18n_country_select.git'
 
 == Example
 Simple use supplying model and attribute as parameters:
