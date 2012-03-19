@@ -2,6 +2,11 @@
 
 A simple country code select helper. Works exactly the same as country_select but uses country codes instead and has i18n translations for (some of) the country names.
 
+== Requirements
+
+Rails 3+
+Ruby 1.9.2+
+https://github.com/onomojo/rails-i18n - Contains the country translations
 
 == Installation
 Put the following in your Gemfile
