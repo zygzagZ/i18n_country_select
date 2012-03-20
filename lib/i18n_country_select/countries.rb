@@ -26,7 +26,7 @@ module I18nCountrySelect
             'TN','TR','TM','TC','TV','UG','UA','AE','GB','US',
             'UY','UM','UZ','VU','VA','VE','VN','VG','VI','WF',
             'EH','YE','YU','ZR','ZM','ZW'
-    
+    raise I18n.t('AF', :scope => :countries).inspect
     COUNTRIES = codes.map{|code| [I18n.t(code, :scope => :countries), code]}
   end
 end
