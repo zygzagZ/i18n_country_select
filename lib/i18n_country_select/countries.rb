@@ -27,6 +27,6 @@ module I18nCountrySelect
             'UY','UM','UZ','VU','VA','VE','VN','VG','VI','WF',
             'EH','YE','YU','ZR','ZM','ZW'
     
-    COUNTRIES = codes.map{|code| [t(code, :scope => :countries), code]}
+    COUNTRIES = codes.map{|code| [I18n.t(code, :scope => :countries), code]}
   end
 end
