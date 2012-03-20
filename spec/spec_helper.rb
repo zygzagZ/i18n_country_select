@@ -5,4 +5,4 @@ require "active_support"
 require "action_view"
 require "rspec"
 
-require "country_code_select"
+require "i18n_country_select"

@@ -4,7 +4,7 @@ require "i18n_country_select/version"
 
 Gem::Specification.new do |s|
   s.name = "i18n_country_select"
-  s.version = CountryCodeSelect::VERSION
+  s.version = I18nCountrySelect::VERSION
   s.authors = ["Russ Smith (russ@bashme.org), Brian McQuay (brian@onomojo.com)"]
   s.email = "russ@bashme.org"
   s.homepage = "https://github.com/onomojo/i18n_country_select"

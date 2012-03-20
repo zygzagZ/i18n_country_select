@@ -1,4 +1,4 @@
-module CountryCodeSelect
+module I18nCountrySelect
 	module InstanceTag
 		include Countries
 

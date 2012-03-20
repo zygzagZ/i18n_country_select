@@ -1,8 +1,8 @@
 require "spec_helper"
 
-describe CountryCodeSelect::FormHelpers do
+describe I18nCountrySelect::FormHelpers do
 	describe "country_code_select" do
-		include CountryCodeSelect::FormHelpers
+		include I18nCountrySelect::FormHelpers
 
 		before(:each) do
 			@user = mock("User", :country => nil)
