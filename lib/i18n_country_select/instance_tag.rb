@@ -9,6 +9,8 @@ module I18nCountrySelect
 		# Adapted from Rails country_select. Just uses country codes instead of full names.
 		def country_code_select(priority_countries, options, html_options)
 			selected = object.send(@method_name)
+      
+      country_translations = COUNTRY_CODES.map{|code| [I18n.t(code, :scope => :countries), code]}
 
 			countries = ""
 			if priority_countries
@@ -19,7 +21,7 @@ module I18nCountrySelect
 				countries += "<option value=\"\" disabled=\"disabled\">-------------</option>\n"
 			end
 
-			countries = countries + options_for_select(COUNTRIES, selected)
+			countries = countries + options_for_select(country_translations, selected)
 			
       html_options = html_options.stringify_keys
       add_default_name_and_id(html_options)
