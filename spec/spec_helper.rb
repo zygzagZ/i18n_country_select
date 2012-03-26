@@ -4,5 +4,5 @@ require "rubygems"
 require "active_support"
 require "action_view"
 require "rspec"
-
 require "i18n_country_select"
+require "i18n-country-translations"

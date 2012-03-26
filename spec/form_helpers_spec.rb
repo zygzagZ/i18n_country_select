@@ -19,7 +19,7 @@ describe I18nCountrySelect::FormHelpers do
 		end
 
 		it "should output a select field with passed attributes" do
-			output = country_code_select(:user, :country, [ "US", "United States" ], class: "custom_class")
+			output = country_code_select(:user, :country, [ "US", "United States" ], {}, :class => "custom_class")
 			output.should match(/select class="custom_class"/)
 		end
 		
