@@ -1,7 +1,7 @@
 module I18nCountrySelect
 	module InstanceTag
 		include Countries
-
+    
 		def to_country_code_select_tag(priority_countries, options = {}, html_options = {})
 			country_code_select(priority_countries, options, html_options)
 		end

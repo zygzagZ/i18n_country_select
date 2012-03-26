@@ -1,8 +1,12 @@
+ENV["RAILS_ENV"] = "test"
 $: << File.dirname(__FILE__) + "/../lib" << File.dirname(__FILE__)
-
-require "rubygems"
+require 'rspec'
 require "active_support"
 require "action_view"
-require "rspec"
-require "i18n_country_select"
-require "i18n-country-translations"
+require 'i18n_country_select'
+require 'support/fake_app'
+
+RSpec.configure do |config|
+  config.mock_with :rspec
+  config.fail_fast = true
+end
