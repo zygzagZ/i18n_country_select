@@ -1,7 +1,7 @@
 # encoding: utf-8
 Gem::Specification.new do |s|
   s.name         = "i18n_country_select"
-  s.version      = '1.0.4'
+  s.version     = I18nCountrySelect::VERSION
   s.authors      = ["Russ Smith (russ@bashme.org), Brian McQuay (brian@onomojo.com)"]
   s.email        = "brian@onomojo.com"
   s.homepage     = "https://github.com/onomojo/i18n_country_select"
