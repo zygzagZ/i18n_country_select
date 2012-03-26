@@ -1,3 +1,8 @@
+$:.push File.expand_path("../lib", __FILE__)
+
+# Maintain your gem's version:
+require "i18n_country_select/version"
+
 # encoding: utf-8
 Gem::Specification.new do |s|
   s.name         = "i18n_country_select"
