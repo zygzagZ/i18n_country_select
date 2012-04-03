@@ -11,7 +11,7 @@ A simple country code select helper. Works exactly the same as country_select bu
 == Installation
 Put the following in your Gemfile
 
-  gem 'i18n_country_select', :git => 'git://github.com/onomojo/i18n_country_select.git'
+  gem 'i18n_country_select'
 
 == Example
 Simple use supplying model and attribute as parameters:
@@ -21,7 +21,6 @@ Simple use supplying model and attribute as parameters:
 Supplying priority countries to be placed at the top of the list:
 
   country_code_select(:user, :country, [[ 'US', 'United States' ], [ 'CA', 'Canada' ]])
-
   
 
 == Contributors
