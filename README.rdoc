@@ -33,6 +33,6 @@ Supplying priority countries to be placed at the top of the list:
 
 
 
-== Copyright/License
+== License
 
-Copyright (c) 2008 Russ Smith, released under the MIT license.
+MIT license
