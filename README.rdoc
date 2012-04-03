@@ -8,7 +8,6 @@ NOTE: The old country_code_select repository that this one was forked from is ou
 
 * Rails 3+
 * Ruby 1.9.2+
-* https://github.com/onomojo/rails-i18n - Contains the country translations
 
 == Installation
 Put the following in your Gemfile
