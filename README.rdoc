@@ -1,6 +1,8 @@
 == Country Code Select
 
-A simple country code select helper. Works exactly the same as country_select but uses country codes instead and has i18n translations for (some of) the country names.
+A simple country code select helper with I18n translations for the countries. Works exactly the same as country_select but uses country codes instead and has i18n translations for the country names.
+
+NOTE: The repository that this gem was forked from is outdated and no longer maintained. This gem is the current version you should use.
 
 == Requirements
 
