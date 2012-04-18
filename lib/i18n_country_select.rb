@@ -1,3 +1,4 @@
+require "sort_alphabetical"
 require "i18n-country-translations"
 require "i18n_country_select/countries"
 require "i18n_country_select/form_builder"
