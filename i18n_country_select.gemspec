@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary      = "I18n country select helper"
   s.description  = "A simple country code select helper that works with I18n translations. Works exactly the same as country_select but uses country codes instead."
 
-  s.files        = Dir.glob("lib/**/*") + %w(README.md MIT-LICENSE)
+  s.files        = Dir.glob("lib/**/*") + %w(README.rdoc MIT-LICENSE)
   s.platform     = Gem::Platform::RUBY
   s.require_path = 'lib'
   s.rubyforge_project = '[none]'
