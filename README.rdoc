@@ -32,8 +32,6 @@ Supplying priority countries to be placed at the top of the list:
 * Frank Wambutt
 
 
-
-
 == License
 
 MIT license
