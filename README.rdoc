@@ -26,12 +26,18 @@ Supplying priority countries to be placed at the top of the list:
 
 == Contributors
 
-* Brian McQuay from Onomojo
+* Brian McQuay (https://github.com/onomojo)
 * Brad Carson from Base 3 Media
 * Russ Smith
 * Frank Wambutt
-* https://github.com/dmilisic
+* (https://github.com/dmilisic)
+* Andreas Wolff (https://github.com/rubyphunk)
+
+== Version History
+
+1.0.12 - Adds the ability to specify text to use in a blank option
 
 == License
 
 MIT license
+
