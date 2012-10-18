@@ -31,11 +31,11 @@ Supplying priority countries to be placed at the top of the list:
 * (https://github.com/dmilisic)
 * Andreas Wolff (https://github.com/rubyphunk)
 * Valentin Rabanelly (https://github.com/vjrabanelly)
-
+* Karl-Petter Åkesson (https://github.com/karl-petter)
 Based on country_code_select: https://github.com/onemanarmy/country_code_select
 
 == Version History
-
+1.0.14 - Removing duplicate country codes and adding Norway
 1.0.13 - Ignore missing translations from i18n-country-translations
 1.0.12 - Adds the ability to specify text to use in a blank option
 
