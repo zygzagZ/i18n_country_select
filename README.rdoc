@@ -33,7 +33,9 @@ Supplying priority countries to be placed at the top of the list:
 * Valentin Rabanelly (https://github.com/vjrabanelly)
 * Karl-Petter Åkesson (https://github.com/karl-petter)
 * Hélder Tavares da Silva (https://github.com/heldersilva)
-Based on the old country_code_select by: Russ Smith (russ@bashme.org) and Frank Wambutt (frank@mo-stud.io)
+* Marten Klitzke (https://github.com/mortik)
+
+Based on the deprecated country_code_select by: Russ Smith (russ@bashme.org) and Frank Wambutt (frank@mo-stud.io)
 
 == Version History
 1.0.16 - Removing unnecessary value attribute and corrected spelling error on the include_blank option tag
