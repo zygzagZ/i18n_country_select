@@ -24,12 +24,12 @@ describe "Form Helpers" do
 
     it "should output a select field with priority countries and include_blank line at the beginning" do
       output = country_code_select(:user, :country, [ "US", 'United States' ], :include_blank => true)
-      output.should include('<select id="user_country" name="user[country]"><option value=""></options>')
+      output.should include('<select id="user_country" name="user[country]"><option></option>')
     end
 
     it "should output a select field with priority countries and include_blank line with comment" do
       output = country_code_select(:user, :country, [ "US", 'United States' ], :include_blank => "Choose..")
-      output.should include('<select id="user_country" name="user[country]"><option value="">Choose..</options>')
+      output.should include('<select id="user_country" name="user[country]"><option>Choose..</option>')
     end
 
     it "should output a select field with passed attributes" do
