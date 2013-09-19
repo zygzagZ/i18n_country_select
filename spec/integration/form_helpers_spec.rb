@@ -63,6 +63,15 @@ describe "Form Helpers" do
           country_code_select(:user, :country).should match /Американское Самоа.+Украина.+Ямайка/m
         end
       end
+
+      context "fr" do
+        before { I18n.locale = :fr }
+        after  { I18n.locale = :en }
+
+        it "should sort countries in right order" do
+          country_code_select(:user, :country).should match /Sénégal.+Swaziland.+Syrie/m
+        end
+      end
     end
   end
 end
