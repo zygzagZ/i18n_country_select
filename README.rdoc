@@ -36,10 +36,12 @@ Supplying priority countries to be placed at the top of the list:
 * Marten Klitzke (https://github.com/mortik)
 * Victor D. (https://github.com/V1c70r)
 * Alexey Degtyarev (https://github.com/alexhifer)
+* Björn Wilmsmann (https://github.com/BjoernKW)
 
 Based on the deprecated country_code_select by: Russ Smith (russ@bashme.org) and Frank Wambutt (frank@mo-stud.io)
 
 == Version History
+* 1.1.0 - Rails 4 support
 * 1.0.19 - Added Macedonia
 * 1.0.18 - Fixed translated sorting
 * 1.0.17 - Removing duplicate country code IE

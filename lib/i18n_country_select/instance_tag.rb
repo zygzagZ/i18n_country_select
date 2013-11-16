@@ -19,7 +19,7 @@ module I18nCountrySelect
 
       countries = ""
 
-      if options[:include_blank]
+      if options.present? and options[:include_blank]
         option = options[:include_blank] == true ? "" : options[:include_blank]
         countries += "<option>#{option}</option>\n"
       end
