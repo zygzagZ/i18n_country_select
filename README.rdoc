@@ -41,6 +41,7 @@ Supplying priority countries to be placed at the top of the list:
 Based on the deprecated country_code_select by: Russ Smith (russ@bashme.org) and Frank Wambutt (frank@mo-stud.io)
 
 == Version History
+* 1.1.1 - Bumping required version of country translations
 * 1.1.0 - Rails 4 support
 * 1.0.19 - Added Macedonia
 * 1.0.18 - Fixed translated sorting
