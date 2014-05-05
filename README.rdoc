@@ -37,10 +37,12 @@ Supplying priority countries to be placed at the top of the list:
 * Victor D. (https://github.com/V1c70r)
 * Alexey Degtyarev (https://github.com/alexhifer)
 * Björn Wilmsmann (https://github.com/BjoernKW)
+* https://github.com/durandom
 
 Based on the deprecated country_code_select by: Russ Smith (russ@bashme.org) and Frank Wambutt (frank@mo-stud.io)
 
 == Version History
+* 1.1.2 - Adding Thread variable to speed up rendering
 * 1.1.1 - Bumping required version of country translations
 * 1.1.0 - Rails 4 support
 * 1.0.19 - Added Macedonia
