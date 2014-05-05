@@ -10,13 +10,6 @@ module I18nCountrySelect
     def country_code_select(priority_countries, options, html_options)
       selected = object.send(@method_name) if object.respond_to?(@method_name)
 
-      country_translations = country_translations = COUNTRY_CODES.map do |code|
-        translation = I18n.t(code, :scope => :countries, :default => 'missing')
-        translation == 'missing' ? nil : [translation, code]
-      end.compact.sort_by do |translation, code|
-        normalize_translation(translation)
-      end
-
       countries = ""
 
       if options.present? and options[:include_blank]
@@ -35,6 +28,18 @@ module I18nCountrySelect
       add_default_name_and_id(html_options)
 
       content_tag(:select, countries.html_safe, html_options)
+    end
+
+    def country_translations
+      Thread.current[:country_translations] ||= {}
+      Thread.current[:country_translations][I18n.locale] ||= begin
+        COUNTRY_CODES.map do |code|
+          translation = I18n.t(code, :scope => :countries, :default => 'missing')
+          translation == 'missing' ? nil : [translation, code]
+        end.compact.sort_by do |translation, code|
+          normalize_translation(translation)
+        end
+      end
     end
 
     private
