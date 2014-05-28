@@ -14,7 +14,7 @@ module I18nCountrySelect
                     'KI','KP','KR','KW','LA','LV','LB','LS','LR','LY',
                     'LI','LT','LU','MO','MK','MG','MW','MY','MV','ML',
                     'MT','MH','MQ','MR','MU','MX','FM','MD','MC','MN',
-                    'MS','MA','MZ','MM','NA','NR','NO','NP','AN','NL',
+                    'MS','MA','MZ','MM','NA','NR','NO','NP','NL','BQ',
                     'NC','NZ','NI','NE','NG','NU','NF','MP','OM','PK',
                     'PW','PA','PG','PY','PE','PH','PN','PL','PF','PT',
                     'PR','QA','RE','RO','RS','RU','RW','LC','WS','SM',
@@ -23,6 +23,6 @@ module I18nCountrySelect
                     'SZ','SE','CH','SY','TJ','TW','TZ','TH','TG','TK',
                     'TO','TT','TN','TR','TM','TC','TV','UG','UA','AE',
                     'US','UY','UM','UZ','VU','VA','VE','VN','VG','VI',
-                    'WF','EH','YE','ZM','ZW'
+                    'WF','EH','YE','ZM','ZW','CW','SX','SS'
   end
 end
