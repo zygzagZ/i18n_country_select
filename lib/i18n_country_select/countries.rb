@@ -14,7 +14,7 @@ module I18nCountrySelect
                     'KI','KP','KR','KW','LA','LV','LB','LS','LR','LY',
                     'LI','LT','LU','MO','MK','MG','MW','MY','MV','ML',
                     'MT','MH','MQ','MR','MU','MX','FM','MD','MC','MN',
-                    'MS','MA','MZ','MM','NA','NR','NO','NP','AN','NL',
+                    'MS','MA','MZ','MM','NA','NR','NO','NP','NL',
                     'NC','NZ','NI','NE','NG','NU','NF','MP','OM','PK',
                     'PW','PA','PG','PY','PE','PH','PN','PL','PF','PT',
                     'PR','QA','RE','RO','RS','RU','RW','LC','WS','SM',
