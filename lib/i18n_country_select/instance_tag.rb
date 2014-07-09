@@ -2,7 +2,11 @@ module I18nCountrySelect
   module InstanceTag
     include Countries
 
-    def to_country_code_select_tag(priority_countries, options = {}, html_options = {})
+    def to_country_code_select_tag(priority_countries, html_options = {}, options = {})
+      # Rails 4 stores options sent when creating an InstanceTag.
+      # Let's use them!
+      options = @options if defined?(@options)
+
       country_code_select(priority_countries, options, html_options)
     end
 
