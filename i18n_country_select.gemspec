@@ -19,10 +19,10 @@ Gem::Specification.new do |s|
   s.rubyforge_project = '[none]'
   s.required_rubygems_version = '>= 1.3.5'
   s.add_dependency('i18n', '~> 0.5')
-  s.add_dependency('i18n-country-translations', ">= 1.0.3")
-  s.add_dependency('unicode_utils', ">= 1.0.0")
-  s.add_development_dependency "rails", ">= 3.0.0"
-  s.add_development_dependency "rspec-rails", ">= 2.7.0"
+  s.add_dependency('i18n-country-translations', '~> 1.0', '>= 1.0.3')
+  s.add_runtime_dependency 'unicode_utils', '~> 1.0', '>= 1.0.0'
+  s.add_development_dependency 'rails', '~> 3.0', '>= 3.0.0'
+  s.add_development_dependency 'rspec-rails', '~> 2.7', '>= 2.7.0'
   s.add_development_dependency "spork", "~> 1.0rc"
   s.licenses = ['MIT', 'GPL-2']
 end
