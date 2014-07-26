@@ -12,7 +12,7 @@ RSpec.configure do |config|
 end
 
 
-module Config
+module RbConfig
   class Application < ::Rails::Application
     # configuration here if needed
     config.active_support.deprecation = :stderr
@@ -20,4 +20,4 @@ module Config
 end
  
 # Initialize the application
-Config::Application.initialize!
+RbConfig::Application.initialize!

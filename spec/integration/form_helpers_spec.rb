@@ -3,10 +3,6 @@ require "spec_helper"
 
 describe "Form Helpers" do
   describe "country_code_select" do
-    # TODO:
-    # Get the translations get loaded. We need to get the app loaded so the translations will load
-    # We can probably do something with fake_app for this purpose.
-
     include I18nCountrySelect::FormHelpers
 
     before(:each) do
@@ -49,6 +45,10 @@ describe "Form Helpers" do
     end
 
     describe "sorting order" do
+    # TODO:
+    # Get the i18n-country-translations loaded. We need to get the app loaded first so the translations will load
+    # We may need to do something with fake_app
+
       context "en" do
         it "should sort countries in right order" do
           country_code_select(:user, :country).should match /American Samoa.+Jamaica.+Ukraine/m

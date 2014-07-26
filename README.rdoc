@@ -39,10 +39,12 @@ Supplying priority countries to be placed at the top of the list:
 * Björn Wilmsmann (https://github.com/BjoernKW)
 * https://github.com/durandom
 * Stefan Slaveykov (https://github.com/wizardone)
+* Leonardo D. Schlossmacher (https://github.com/leods92)
 
 Based on the deprecated country_code_select by: Russ Smith (russ@bashme.org) and Frank Wambutt (frank@mo-stud.io)
 
 == Version History
+* 1.1.4 - Fixed options being ignored when running Rails 4
 * 1.1.3 - Removed Netherlands Antilles. Added Bonaire, Curacao, Sint Maarten, and South Sudan
 * 1.1.2 - Adding Thread variable to speed up rendering
 * 1.1.1 - Bumping required version of country translations
