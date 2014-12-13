@@ -1,7 +1,5 @@
 module I18nCountrySelect
   module InstanceTag
-    include Countries
-
     def to_country_code_select_tag(priority_countries, html_options = {}, options = {})
       # Rails 4 stores options sent when creating an InstanceTag.
       # Let's use them!
@@ -37,7 +35,7 @@ module I18nCountrySelect
     def country_translations
       Thread.current[:country_translations] ||= {}
       Thread.current[:country_translations][I18n.locale] ||= begin
-        COUNTRY_CODES.map do |code|
+        (I18n.t 'countries').keys.map do |code|
           translation = I18n.t(code, :scope => :countries, :default => 'missing')
           translation == 'missing' ? nil : [translation, code]
         end.compact.sort_by do |translation, code|
