@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/onomojo/i18n_country_select.svg?branch=master)](https://travis-ci.org/onomojo/i18n_country_select)
+{<img src="https://travis-ci.org/onomojo/i18n_country_select.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/onomojo/i18n_country_select]
+
 
 == Country Code Select
 
