@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/onomojo/i18n_country_select.svg?branch=master)](https://travis-ci.org/onomojo/i18n_country_select)
+
 == Country Code Select
 
 A simple country code select helper with I18n translations for the countries. Works exactly the same as country_select but uses country codes instead and has i18n translations for the country names.
