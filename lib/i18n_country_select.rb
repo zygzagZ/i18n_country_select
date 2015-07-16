@@ -9,7 +9,7 @@ require "i18n_country_select/instance_tag"
 
 ActionView::Base.send(:include, I18nCountrySelect::FormHelpers)
 if Rails::VERSION::MAJOR >= 4
-  ActionView::Helpers::ActiveModelInstanceTag.send(:include, I18nCountrySelect::InstanceTag)
+  ActionView::Helpers::Tags::Select.send(:include, I18nCountrySelect::InstanceTag)
 else
   ActionView::Helpers::InstanceTag.send(:include, I18nCountrySelect::InstanceTag)
 end

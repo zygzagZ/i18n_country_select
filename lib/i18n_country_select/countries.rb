@@ -23,6 +23,6 @@ module I18nCountrySelect
                     'SZ','SE','CH','SY','TJ','TW','TZ','TH','TG','TK',
                     'TO','TT','TN','TR','TM','TC','TV','UG','UA','AE',
                     'US','UY','UM','UZ','VU','VA','VE','VN','VG','VI',
-                    'WF','EH','YE','ZM','ZW','CW','SX','SS','ME'
+                    'WF','EH','YE','ZM','ZW','CW','SX','SS','ME','XK'
   end
 end
