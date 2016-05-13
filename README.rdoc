@@ -1,8 +1,11 @@
+{<img src="https://travis-ci.org/onomojo/i18n_country_select.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/onomojo/i18n_country_select]
+
+
 == Country Code Select
 
 A simple country code select helper with I18n translations for the countries. Works exactly the same as country_select but uses country codes instead and has i18n translations for the country names.
 
-NOTE: The old country_code_select repository that this one was forked from is outdated and no longer maintained. This i18_country_select repository is the most corrent.
+NOTE: The old country_code_select repository that this one was forked from is outdated and no longer maintained. This i18_country_select repository is the most current.
 
 == Requirements
 
@@ -22,7 +25,7 @@ Simple use supplying model and attribute as parameters:
 Supplying priority countries to be placed at the top of the list:
 
   country_code_select(:user, :country, [[ 'US', 'United States' ], [ 'CA', 'Canada' ]])
-  
+
 
 == Contributors
 
@@ -42,11 +45,14 @@ Supplying priority countries to be placed at the top of the list:
 * Leonardo D. Schlossmacher (https://github.com/leods92)
 * https://github.com/mstark
 * Adam St. John (https://github.com/astjohn)
+* Monica Giambitto - https://github.com/nirnaeth
+* Marat Galiev - https://github.com/maratgaliev
 
 Based on the deprecated country_code_select by: Russ Smith (russ@bashme.org) and Frank Wambutt (frank@mo-stud.io)
 
 == Version History
-* 1.1.5 - Simplifying country code definition
+* 1.1.6 - Simplifying country code definition
+* 1.1.5 - Fixing support for Rails 4.2. Adding Kosovo country code
 * 1.1.4 - Fixed options being ignored when running Rails 4
 * 1.1.3 - Removed Netherlands Antilles. Added Bonaire, Curacao, Sint Maarten, and South Sudan
 * 1.1.2 - Adding Thread variable to speed up rendering
@@ -64,4 +70,3 @@ Based on the deprecated country_code_select by: Russ Smith (russ@bashme.org) and
 == License
 
 MIT or GPL
-
