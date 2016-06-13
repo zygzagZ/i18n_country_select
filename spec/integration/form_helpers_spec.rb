@@ -44,6 +44,22 @@ describe "Form Helpers" do
       output.should_not match(/translation missing/)
     end
 
+    describe 'selection' do
+      before(:each) do
+        @user = mock('User', :country => 'US')
+      end
+
+      it 'should output a select field with a selected country' do
+        output = country_code_select(:user, :country)
+        output.should include('<option value="US" selected="selected">')
+      end
+
+      it 'should output a select field with a selected country' do
+        output = country_code_select(:user, :country, [], { :selected => 'CA' })
+        output.should include('<option value="CA" selected="selected">')
+      end
+    end
+
     describe "sorting order" do
     # TODO:
     # Get the i18n-country-translations loaded. We need to get the app loaded first so the translations will load

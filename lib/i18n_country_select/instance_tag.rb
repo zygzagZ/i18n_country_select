@@ -10,7 +10,7 @@ module I18nCountrySelect
 
     # Adapted from Rails country_select. Just uses country codes instead of full names.
     def country_code_select(priority_countries, options, html_options)
-      selected = object.send(@method_name) if object.respond_to?(@method_name)
+      selected = options.fetch(:selected, object.respond_to?(@method_name) ? object.send(@method_name) : nil)
 
       countries = ""
 
