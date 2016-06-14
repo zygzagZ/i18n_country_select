@@ -26,6 +26,10 @@ Supplying priority countries to be placed at the top of the list:
 
   country_code_select(:user, :country, [[ 'US', 'United States' ], [ 'CA', 'Canada' ]])
 
+Specifying different selected value:
+
+  country_code_select(:user, :country, [], selected: 'CA')
+
 
 == Contributors
 
