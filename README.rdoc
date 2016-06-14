@@ -51,10 +51,12 @@ Specifying different selected value:
 * Adam St. John (https://github.com/astjohn)
 * Monica Giambitto - https://github.com/nirnaeth
 * Marat Galiev - https://github.com/maratgaliev
+* Rachel Carvalho - https://github.com/rachel-carvalho
 
 Based on the deprecated country_code_select by: Russ Smith (russ@bashme.org) and Frank Wambutt (frank@mo-stud.io)
 
 == Version History
+* 1.1.7 - Adding support for default selection
 * 1.1.6 - Simplifying country code definition
 * 1.1.5 - Fixing support for Rails 4.2. Adding Kosovo country code
 * 1.1.4 - Fixed options being ignored when running Rails 4
