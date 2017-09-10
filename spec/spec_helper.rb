@@ -1,6 +1,6 @@
 ENV["RAILS_ENV"] = "test"
 $: << File.dirname(__FILE__) + "/../lib" << File.dirname(__FILE__)
-require 'rspec'
+#require 'rspec'
 require "active_support"
 require 'action_view'
 require 'i18n_country_select'
@@ -18,6 +18,6 @@ module RbConfig
     config.active_support.deprecation = :stderr
   end
 end
- 
+
 # Initialize the application
 RbConfig::Application.initialize!
