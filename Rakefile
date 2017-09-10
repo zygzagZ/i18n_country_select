@@ -5,7 +5,7 @@ require "rspec/core/rake_task"
 namespace :spec do
   RSpec::Core::RakeTask.new(:normal) do |t|
     t.pattern = "spec/**/*_spec.rb"
-    t.rcov = false
+#    t.rcov = false
   end
 end
 
