@@ -1,6 +1,4 @@
 language: ruby
-sudo: required
-dist: precise
 cache: bundler
 install: bundle install --jobs=3 --retry=3
 script:
