@@ -34,6 +34,11 @@ describe "Form Helpers" do
       expect(output).to match(/select class="custom_class"/)
     end
 
+    it "should output countries except the ones in the exclude_countries parameter" do
+      output = country_code_select(:user, :country, [], exclude: [:US], :class => "custom_class")
+      expect(output).to_not include('<option value="US">United States</option>')
+    end
+
     it "should output a valid select field for fields_for nested attributes" do
       # no idea how to write the test for this.
       # output.should match /select id="user_shipping_address_attributes_country"/

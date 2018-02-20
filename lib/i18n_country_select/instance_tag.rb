@@ -24,7 +24,13 @@ module I18nCountrySelect
         countries += "<option value=\"\" disabled=\"disabled\">-------------</option>\n"
       end
 
-      countries = countries + options_for_select(country_translations, selected)
+      translations = if options[:exclude].present?
+                       country_translations.reject { |ct| options[:exclude].include? ct[1] }
+                     else
+                       country_translations
+                     end
+
+      countries = countries + options_for_select(translations, selected)
 
       html_options = html_options.stringify_keys
       add_default_name_and_id(html_options)
